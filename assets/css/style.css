@@ -13,6 +13,7 @@ body {
     background-color: #000;
 }
 
+/* HEADER */
 .banner {
     background-image: linear-gradient(
             rgba(0, 0, 0, 0.6),
@@ -70,4 +71,38 @@ body {
     border-image: linear-gradient(#3ba1cd, #1572b7);
     border-image-slice: 10;
     border-radius: 30px;
+}
+
+/* MAIN */
+section {
+    margin: 100px auto;
+}
+
+#course-content {
+    width: 800px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #33a8d8;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+#course-content .modules-list {
+    margin: 24px 0;
+}
+
+#course-content .modules-list .module {
+    color: #fff;
+    width: 530px;
+    margin: 0 auto 24px;
+    border: 1px solid #33a8d8;
+    background-color: #252525;
+    padding: 1rem;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
 }
