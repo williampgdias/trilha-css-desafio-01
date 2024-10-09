@@ -7,6 +7,7 @@
 
 p {
     color: #fff;
+    font-size: 1.2rem;
 }
 
 body {
@@ -24,7 +25,6 @@ h2 {
 
 /* HEADER */
 .banner {
-    display: none;
     background-image: linear-gradient(
             rgba(0, 0, 0, 0.6),
             rgba(49, 168, 221, 0.2),
@@ -90,7 +90,6 @@ section {
 }
 
 #course-content {
-    display: none;
     width: 800px;
     text-align: center;
 }
@@ -112,7 +111,6 @@ section {
 
 /* Transform World */
 #transform-world {
-    display: none;
     height: 560px;
     background-size: cover;
     background-image: url(../images/woman-code.png);
@@ -138,4 +136,25 @@ section {
 
 #professional-challenges img {
     margin: 32px 0;
+}
+
+/* Footer */
+footer {
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(
+        rgba(50, 168, 219, 0),
+        rgba(50, 168, 219, 0.2)
+    );
+    border-top: 1px solid #33a8db80;
+}
+
+footer .dio-logo {
+    width: 300px;
+}
+
+footer a {
+    color: #33a8db;
+    font-weight: bold;
+    text-decoration: none;
 }
