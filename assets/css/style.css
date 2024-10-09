@@ -13,6 +13,15 @@ body {
     background-color: #000;
 }
 
+h2 {
+    font-size: 2rem;
+    color: #33a8d8;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
 /* HEADER */
 .banner {
     display: none;
@@ -86,15 +95,6 @@ section {
     text-align: center;
 }
 
-h2 {
-    font-size: 2rem;
-    color: #33a8d8;
-    font-weight: bold;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    margin-bottom: 24px;
-}
-
 #course-content .modules-list {
     margin: 24px 0;
 }
@@ -112,6 +112,7 @@ h2 {
 
 /* Transform World */
 #transform-world {
+    display: none;
     height: 560px;
     background-size: cover;
     background-image: url(../images/woman-code.png);
@@ -127,4 +128,14 @@ h2 {
     text-transform: lowercase;
     max-width: 250px;
     text-shadow: 3px 2px #33a8db;
+}
+
+/* Professional Challenges */
+#professional-challenges {
+    text-align: center;
+    width: 800px;
+}
+
+#professional-challenges img {
+    margin: 32px 0;
 }
