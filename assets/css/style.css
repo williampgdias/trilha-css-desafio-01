@@ -15,6 +15,7 @@ body {
 
 /* HEADER */
 .banner {
+    display: none;
     background-image: linear-gradient(
             rgba(0, 0, 0, 0.6),
             rgba(49, 168, 221, 0.2),
@@ -74,11 +75,13 @@ body {
 }
 
 /* MAIN */
+/* Course Content */
 section {
     margin: 100px auto;
 }
 
 #course-content {
+    display: none;
     width: 800px;
     text-align: center;
 }
@@ -105,4 +108,23 @@ h2 {
     padding: 1rem;
     border-radius: 100px;
     box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Transform World */
+#transform-world {
+    height: 560px;
+    background-size: cover;
+    background-image: url(../images/woman-code.png);
+    background-attachment: fixed;
+    border-top: 1px solid #33a8db80;
+    border-bottom: 1px solid #33a8db80;
+    padding: 200px;
+}
+
+#transform-world p {
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #33a8db;
 }
